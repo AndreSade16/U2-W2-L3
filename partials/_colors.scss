@@ -1,6 +1,11 @@
 
 nav {
     background-color: $hero-bg-color;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 #hero {

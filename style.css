@@ -63,6 +63,10 @@ ul, h1, p {
 nav {
   background-color: #640fc5;
 }
+nav a {
+  color: white;
+  text-decoration: none;
+}
 
 #hero {
   background-color: #640fc5;
@@ -163,11 +167,12 @@ main {
 
 .button-1 {
   background-color: #0e6cff;
-  padding: 1rem;
+  padding: 0.5rem;
   color: white;
   border-radius: 15px;
   border: none;
   box-shadow: 8px 7px 5px -4px #000000;
+  width: 26%;
 }
 .button-1:hover {
   transform: scale(1.1);
@@ -176,11 +181,12 @@ main {
 
 .button-2 {
   background-color: #ff8700;
-  padding: 1rem;
+  padding: 0.5rem;
   color: white;
   border-radius: 15px;
   border: none;
   box-shadow: 8px 7px 5px -4px #000000;
+  width: 26%;
 }
 .button-2:hover {
   transform: scale(1.1);
@@ -189,11 +195,12 @@ main {
 
 .button-3 {
   background-color: #4caf50;
-  padding: 1rem;
+  padding: 0.5rem;
   color: white;
   border-radius: 15px;
   border: none;
   box-shadow: 8px 7px 5px -4px #000000;
+  width: 26%;
 }
 .button-3:hover {
   transform: scale(1.1);

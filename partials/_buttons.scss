@@ -1,11 +1,12 @@
 @each $number, $color in $color-map {
     .button-#{$number} {
         background-color: $color;
-        padding: $padding-normal;
+        padding: $padding-small;
         color: white;
         border-radius: 15px;
         border: none;
         box-shadow: 8px 7px 5px -4px #000000;
+        width: 26%;
 
         &:hover {
             transform: scale(1.1);

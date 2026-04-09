@@ -87,6 +87,54 @@ nav a {
   border: none;
 }
 
+.padding-block-sm {
+  padding: 0.5rem;
+}
+
+.padding-block-normal {
+  padding: 0.8rem;
+}
+
+.padding-block-md {
+  padding: 1rem;
+}
+
+.padding-block-lg {
+  padding: 1.2rem;
+}
+
+.padding-block-xl {
+  padding: 1.5rem;
+}
+
+.padding-block-xxl {
+  padding: 2rem;
+}
+
+.padding-inline-sm {
+  padding: 0.3rem;
+}
+
+.padding-inline-normal {
+  padding: 0.5rem;
+}
+
+.padding-inline-md {
+  padding: 0.7rem;
+}
+
+.padding-inline-lg {
+  padding: 0.9rem;
+}
+
+.padding-inline-xl {
+  padding: 1.1rem;
+}
+
+.padding-inline-xxl {
+  padding: 1.3rem;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -147,7 +195,6 @@ header #hero #buttons-container {
 }
 
 main {
-  padding: 2rem;
   width: 100%;
   display: flex;
   flex-wrap: wrap;

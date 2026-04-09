@@ -62,7 +62,7 @@ header {
         @include flex-row-centered;
         gap: 2rem;
 
-        padding: 5rem;
+        padding: 0rem 5rem 5rem;
 
         #hero-text {
             display: flex;

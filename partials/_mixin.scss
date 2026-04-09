@@ -2,14 +2,25 @@
     font-size: $text-big;
     font-style: oblique;
     color: #260c45;
-    font-weight: bold;
+    font-weight: 900;
 }
 
-@mixin floating($border: none, $shadow: 6px 5px 6px 0px #000000) {
+@mixin floating($border: none, $shadow: 10px 11px 5px -5px #000000) {
     border-radius: 30px;
     box-shadow: $shadow;
     border: $border;
 }
+
+@mixin grid($n) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    > * {
+        width: calc(90% / $n);
+    }
+}
+
 
 @mixin flex-row-centered {
     display: flex;

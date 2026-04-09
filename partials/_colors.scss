@@ -5,6 +5,9 @@ nav {
 
 #hero {
     background-color: $hero-bg-color;
+    p {
+        color: rgb(243, 255, 206);
+    }
 }
 
 #hero-img-container img{
@@ -15,3 +18,4 @@ nav {
     @include floating(none, 6px 5px 3px -2px #000000);
     
 }
+

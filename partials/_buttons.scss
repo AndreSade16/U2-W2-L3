@@ -3,8 +3,9 @@
         background-color: $color;
         padding: $padding-normal;
         color: white;
-        border-radius: 20px;
+        border-radius: 15px;
         border: none;
+        box-shadow: 8px 7px 5px -4px #000000;
 
         &:hover {
             transform: scale(1.1);

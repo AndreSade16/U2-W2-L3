@@ -1,0 +1,7 @@
+ul, h1, p {
+    font-family: $font-family;
+}
+
+#title {
+    @include title-big;
+}

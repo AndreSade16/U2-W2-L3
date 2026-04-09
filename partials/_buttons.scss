@@ -1,0 +1,14 @@
+@each $number, $color in $color-map {
+    .button-#{$number} {
+        background-color: $color;
+        padding: $padding-normal;
+        color: white;
+        border-radius: 20px;
+        border: none;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease 0s;
+        }
+    }
+}

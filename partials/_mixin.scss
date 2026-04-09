@@ -1,0 +1,34 @@
+@mixin title-big {
+    font-size: $text-big;
+    font-style: oblique;
+    color: #260c45;
+    font-weight: bold;
+}
+
+@mixin floating($border: none, $shadow: 6px 5px 6px 0px #000000) {
+    border-radius: 30px;
+    box-shadow: $shadow;
+    border: $border;
+}
+
+@mixin flex-row-centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-row-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-column-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

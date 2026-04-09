@@ -1,0 +1,17 @@
+
+nav {
+    background-color: $hero-bg-color;
+}
+
+#hero {
+    background-color: $hero-bg-color;
+}
+
+#hero-img-container img{
+    @include floating(2px solid white);
+}
+
+.main-img-container img {
+    @include floating(none, 6px 5px 3px -2px #000000);
+    
+}

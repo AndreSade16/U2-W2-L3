@@ -1,0 +1,28 @@
+// COLORS
+
+$text-color: #f4f4f4;
+$hero-bg-color: #640fc5;
+
+$color-map: (
+    1: #0e6cff,
+    2: #ff8700,
+    3: #4caf50
+);
+
+// FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+$font-family: "Roboto", sans-serif;
+$text-big: 2.5rem;
+$text-medium: 1.5rem;
+$text-small: 0.8rem;
+
+// SPACINGS
+
+$padding-small: 0.5rem;
+$padding-normal: 1rem;
+$padding-big: 1.5rem;
+$margin-small: 0.5rem;
+$margin-normal: 1rem;
+$margin-big: 1.5rem;

@@ -149,7 +149,7 @@ header nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem 3rem;
 }
 header nav img {
   height: 5rem;
@@ -180,8 +180,9 @@ header #hero #hero-text {
   width: 30%;
 }
 header #hero #hero-img-container {
-  width: 30%;
+  width: 40%;
   height: auto;
+  transform: translate(0%, 25%);
 }
 header #hero #hero-img-container img {
   height: auto;
@@ -207,6 +208,9 @@ main {
   gap: 2rem;
 }
 
+.main-img-container {
+  margin-top: 5rem !important;
+}
 .main-img-container img {
   height: auto;
   width: 100%;

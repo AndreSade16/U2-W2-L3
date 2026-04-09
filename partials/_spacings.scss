@@ -41,7 +41,7 @@ body {
 header {
     nav {
     @include flex-row-between;
-    padding: $padding-big;
+    padding: 1rem 3rem;
 
     img {
         height: 5rem;
@@ -75,9 +75,9 @@ header {
         }
 
         #hero-img-container {
-            width: 30%;
+            width: 40%;
             height: auto;
-
+            transform: translate(0%, 25%);
 
             img {
             height: auto;
@@ -103,10 +103,14 @@ main {
 
     gap: 2rem;
 
+
+
     
 }
 
 .main-img-container {
+
+        margin-top: 5rem !important;
 
         img {
             height: auto;
